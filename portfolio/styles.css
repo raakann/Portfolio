@@ -41,6 +41,7 @@ ul {
   width: 500px;
   justify-content: space-around;
   font-size: 30px;
+  font-family: 'Abel', sans-serif;
 }
 ul.show{
   display: block;
@@ -63,6 +64,8 @@ li {
 }
 .logo h1{
   text-align: center;
+  font-family: 'Noto Sans Syloti Nagri', sans-serif;
+
 }
 .hero-area{
   display: flex;
@@ -78,9 +81,12 @@ li {
 }
 .hero-text h1{
   color:#ccd6f6;
+  font-family: 'Noto Sans Syloti Nagri', sans-serif;
+
 }
 .hero-text h2{
   color:  #8892b0;
+  font-family: 'Noto Sans Syloti Nagri', sans-serif;
 }
 .hero-text h1, h4,h2{
   margin: 5px;
@@ -90,6 +96,8 @@ li {
 }
 .hero-text h4{
   font-size: 25px;
+  font-family: 'Space Grotesk', sans-serif;
+
   color:   #64ffda;
 }
 
@@ -113,7 +121,7 @@ li {
   line-height: 1;
   margin-top: 50px;
   font-size: 25px;
- 
+  font-family: 'Abel', sans-serif;
 
 }
 
@@ -147,7 +155,9 @@ li {
 }
 .information h1 {
   color: #ccd6f6;
-  font-size: 70px;
+  font-size: 45px;
+  font-family: 'Noto Sans Syloti Nagri', sans-serif;
+
   
 }
 .information {
@@ -159,11 +169,13 @@ li {
   color: #8892b0;
   font-size: 30px;
   padding: 5px;
+  font-family: 'Abel', sans-serif;
 }
 .mypic{
   padding-top: 140px;
     display: flex;
   align-items: center;
+  padding-left: 15px;
   
   
 }
@@ -177,6 +189,8 @@ li {
 .sub-section-alternative h2 {
   color: #ccd6f6;
   font-size: 45px;
+  font-family: 'Noto Sans Syloti Nagri', sans-serif;
+
 }
 .project-container{
   display: flex;
@@ -192,7 +206,7 @@ li {
 .subtext{
   font-size: 15px;
   font-weight: 300;
-}
+  font-family: 'Abel', sans-serif;}
 
 .project-image{
   margin-top: 25px;
@@ -234,10 +248,14 @@ hr{
 footer h2{
   color: #ccd6f6;
 font-size: 45px;
+font-family: 'Noto Sans Syloti Nagri', sans-serif;
+
 }
 footer p {
   color: #8892b0;
   padding: 10px;
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
 }
 
 footer p a{
@@ -250,6 +268,7 @@ footer p a{
   font-size: 16px;
   line-height: 1;
   text-align: center;
+  font-family: 'Abel', sans-serif;
 }
 span{
   color: #64ffda;
@@ -260,12 +279,7 @@ span{
 
 @media only screen and
 (max-width:1549px){
-  .information h1{
-    font-size: 45px;
-  }
-  .information p{
-    font-size: 16px;
-  }
+
   .rakan {
     width: 391px;
     height: 300px;}
@@ -360,8 +374,8 @@ nav {
 
   }
   .button{
-    width: 161px;
-    height: 60px;
+    width: 143px;
+    height: 55px;
   }
   .button a{
     font-size: 10px;
@@ -369,13 +383,26 @@ nav {
   footer h2 {
     font-size: 30px;}
     footer p {
-    font-size: 10px;
+    font-size: 14px;
     }
     .information p {
-      font-size: 10px;
+      font-size: 13px;
   }
+  .rakan {
+    width: 309px;
+    height: 226px;
+}
 }
 ::selection{
   background-color: #8892b0;
 }
 
+.hero-text h2::selection{
+  background-color: #ccd6f6;
+}
+.information p::selection{
+  background-color: #ccd6f6;
+}
+footer p::selection{
+  background-color: #ccd6f6;
+}
